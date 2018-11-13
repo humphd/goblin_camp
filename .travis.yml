@@ -27,7 +27,6 @@ before_script:
     - scons develop
 compiler:
     - gcc
-    - clang
 script:
     - cmake .
     - make
